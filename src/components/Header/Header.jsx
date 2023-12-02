@@ -1,4 +1,4 @@
-import Logo from "../../assets/logo";
+import {Logo} from "../../assets/svg/icons";
 import Container from "../Container/Container";
 import "./Header.scss";
 
