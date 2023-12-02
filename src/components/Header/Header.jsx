@@ -1,9 +1,20 @@
-import './Header.scss';
+import Logo from "../../assets/logo";
+import Container from "../Container/Container";
+import "./Header.scss";
 
 function Header() {
-    return(
-        <></>
-    )
+  return (
+    <Container>
+      <header className="header">
+        <a href="/" className="header__logo-wrap">
+          <Logo />
+          <span className="header__logo-text">Halta</span>
+        </a>
+
+        <a href="#" className="header__btn">Get started</a>
+      </header>
+    </Container>
+  );
 }
 
-export default Header
+export default Header;
