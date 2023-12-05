@@ -3,6 +3,9 @@ import Container from '../Container/Container';
 import './Hero.scss';
 
 function Hero() {
+
+    console.log('Helloo there');
+
     return(
         <Container>
             <section className='hero'>
